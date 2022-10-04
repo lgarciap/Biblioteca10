@@ -109,6 +109,28 @@ public class Cliente {
         this.prestamos = prestamos;
     }
 
+    /** 
+     * Agrega un préstamo a la lista de préstamos del usuario
+     * @param tipoPublicacion: 1: Libro, 2: Revista, 3: Artículo
+     * @param fechaInicio
+     * @param fechaFin
+     * @param id
+     * @param titulo
+     * @param materia
+     * @param cantEjemp
+     * @param estado
+     * @param autor
+     * @param editorial
+     * @param anio
+     * @param numero
+     * @param arbitro
+     */
+    public void agregarPrestamo(int tipoPublicacion, Date fechaInicio, Date fechaFin,
+    int id, String titulo, String materia, int cantEjemp, String estado,
+    String autor, String editorial,int anio, int numero,String arbitro
+    ){
+    }
+
     
     /** 
      * @return String
